@@ -9,7 +9,7 @@ const BlockChainContainer = styled.div`
   justify-content: flex-start;
   background-color: gainsboro;
 `;
-
+console.log("연습용 타이핑");
 function SmartContract(props) {
   return <BlockChainContainer>스마트컨트랙트 소개 페이지</BlockChainContainer>;
 }

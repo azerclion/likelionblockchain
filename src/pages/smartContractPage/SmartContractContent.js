@@ -14,6 +14,7 @@ function SmartContractContent(props) {
   return (
     <SmartContractContentContainer>
       <div>SmartContractContentContainer</div>
+      <div>연습용 타이핑123</div>
     </SmartContractContentContainer>
   );
 }
