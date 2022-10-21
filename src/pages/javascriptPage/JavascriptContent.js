@@ -17,8 +17,6 @@ function JavascriptContent(props) {
         JavascriptContentContainer
         <div>
           <p>어쩌고 저쩌고....</p>
-          <p>어쩌고 저쩌고....</p>
-          <p>어쩌고 저쩌고....</p>
         </div>
       </div>
     </JavascriptContentContainer>
