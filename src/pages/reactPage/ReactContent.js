@@ -13,7 +13,9 @@ const ReactContentContainer = styled.div`
 function ReactContent(props) {
   return (
     <ReactContentContainer>
-      <div>ReactContentContainer</div>
+      <div>
+        <h1>리액트 핵심코드</h1>
+      </div>
     </ReactContentContainer>
   );
 }

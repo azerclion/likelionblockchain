@@ -16,10 +16,10 @@ function ReactSubTab(props) {
     <>
       <SubTab>
         <div>
-          <Link to={`/react/whatisreact`}>What is REACT?</Link>
+          <Link to={`/react/whatisreact`}>리액트란 무엇인가?</Link>
         </div>
         <div>
-          <Link to={`/react/content01`}>Content</Link>
+          <Link to={`/react/content01`}>리액트 코드</Link>
         </div>
       </SubTab>
     </>
