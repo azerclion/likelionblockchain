@@ -11,7 +11,7 @@ const ReactContainer = styled.div`
 `;
 
 function Reactjs(props) {
-  return <ReactContainer>리액트 소개 페이지</ReactContainer>;
+  return <ReactContainer>리액트 소개 페이지.DS</ReactContainer>;
 }
 
 export default Reactjs;

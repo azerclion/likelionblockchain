@@ -13,7 +13,9 @@ const WhatIsReactContainer = styled.div`
 function WhatIsReact(props) {
   return (
     <WhatIsReactContainer>
-      <div>WhatIsReactContainer</div>
+      <div>
+        <h1>리액트</h1>
+        </div>
     </WhatIsReactContainer>
   );
 }
