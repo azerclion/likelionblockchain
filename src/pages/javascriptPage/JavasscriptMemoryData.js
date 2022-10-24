@@ -39,7 +39,7 @@ function JavaScriptData() {
           type)
         </p>
         <details>
-          <summary>지루한 이야기...</summary>
+          <summary>자세히</summary>
           <p>var a=6;</p>
           <p>a=7</p>
           <p>
