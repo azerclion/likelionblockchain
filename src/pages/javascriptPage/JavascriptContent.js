@@ -16,7 +16,8 @@ function JavascriptContent(props) {
       <div>
         JavascriptContentContainer
         <div>
-          <p>어쩌고 저쩌고....</p>
+          <h2>자바스크립트 타입 유형</h2>
+          <h2>호이스팅</h2>
         </div>
       </div>
     </JavascriptContentContainer>
