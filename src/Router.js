@@ -18,6 +18,7 @@ import Javascript from "./pages/javascriptPage/Javascript";
 import WhatIsJavascript from "./pages/javascriptPage/WhatIsJavascript";
 import JavascriptContent from "./pages/javascriptPage/JavascriptContent";
 import JavasscriptMemoryData from "./pages/javascriptPage/JavasscriptMemoryData";
+import JavascriptSyntax from "./pages/javascriptPage/JavascriptSyntax";
 import Reactjs from "./pages/reactPage/Reactjs";
 import WhatIsReact from "./pages/reactPage/WhatIsReact";
 import ReactContent from "./pages/reactPage/ReactContent";
@@ -79,6 +80,10 @@ function Router(props) {
           <Route
             path="/javascript/JavasscriptMemoryData"
             element={<JavasscriptMemoryData />}
+          ></Route>
+          <Route
+            path="/javascript/JavascriptSyntax"
+            element={<JavascriptSyntax />}
           ></Route>
 
           <Route path="/react" element={<Reactjs />}></Route>
