@@ -24,6 +24,9 @@ function JavascriptSubTab(props) {
         <div>
           <Link to={`/javascript/JavasscriptMemoryData`}>JavaScriptData</Link>
         </div>
+        <div>
+          <Link to={`/javascript/JavascriptSyntax`}>javascriptSyntax</Link>
+        </div>
       </SubTab>
     </>
   );

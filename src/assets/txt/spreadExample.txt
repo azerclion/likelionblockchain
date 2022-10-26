@@ -1,0 +1,21 @@
+const app = { a: 12, b: 34 };
+const copyObj = app;
+const spread = { ...app };
+
+console.log(spread);
+console.log("object Copy", app === copyObj);
+console.log("object Spread", app === spread);
+console.log("primitive", app.a === spread.a);
+console.log("primitive", app["a"] === spread["a"]);
+
+const arr = [1, 2, 3, 4];
+const copyArr = arr;
+const aspread = [...arr];
+const aspreadobject = { ...arr };
+
+console.log(aspread);
+console.log(aspreadobject);
+console.log("array Copy", arr === copyArr);
+console.log("array Spread", arr === aspread);
+console.log("primitive", arr[0] === aspread[0]);
+console.log("primitive", arr[0] === aspreadobject[0]);
